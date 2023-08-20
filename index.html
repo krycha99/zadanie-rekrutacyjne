@@ -27,9 +27,9 @@
                         <i class="bi bi-chevron-compact-down"></i>
                     </a>
                     <ul class="dropdown">
-                        <li class="drop__item"><a href="#" class="drop__link">tresc 1</a></li>
-                        <li class="drop__item"><a href="#" class="drop__link">tresc 2</a></li>
-                        <li class="drop__item"><a href="#" class="drop__link">tresc 3</a></li>
+                        <li class="drop__item"><a href="#" class="drop__link">treść 1</a></li>
+                        <li class="drop__item"><a href="#" class="drop__link">treść 2</a></li>
+                        <li class="drop__item"><a href="#" class="drop__link">treść 3</a></li>
                     </ul>
                 </li>
                 <li class="nav__item">
@@ -125,7 +125,61 @@
             </div>
        </div>
     </div>
+
+    <!-- Sekcja o firmie -->
+    <div class="info__container">
+        <div class="info__grid">
+            <img class="info__img w-100" src="images/info1.png" alt="">
+            <div class="info__content">
+                <small class="info__small">O firmie</small>
+                <h2>Tworzymy z pasją</h2>
+                <div class="info__text">Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą wykwalifikowani projektanci oraz architekci,
+                     których zadaniem jest rozpoznanie i realizacja potrzeb każdego Klienta. Nasza specjalizacja to przestrzenie
+                     nowoczesne, które charakteryzuje minimalizm, geometria i elegancka prostota. Tworzymy ogrody małoobsługowe, dostosowane do współczesnego trybu życia.
+                </div>
+                <button type="button" class="btn btn-outline-light info__btn">Poznaj nas bliżej <i class="bi bi-arrow-right-short clink__icons"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sekcja realizacje -->
+    <div class="gallery__container">
+        <div class="gallery__header">
+            <small class="gallery__small">Realizacje</small>
+            <h2>Nasze projekty</h2>
+        </div>
+        <div class="grid">
+            <div class="grid-item"><img src="images/gallery/gallery1.png"></div>
+            <div class="grid-item grid-item--width2"><img src="images/gallery/gallery2.png" alt=""></div>
+            <div class="grid-item"><img src="images/gallery/gallery3.png" alt=""></div>
+            <div class="grid-item"><img src="images/gallery/gallery4.png" alt=""></div>
+            <div class="grid-item grid-item--width2"><img src="images/gallery/gallery5.png" alt=""></div>
+            <div class="grid-item"><img src="images/gallery/gallery6.png" alt=""></div>
+            <div class="grid-item"><img src="images/gallery/gallery7.png" alt=""></div>
+            <div class="grid-item grid-item--width2"><img src="images/gallery/gallery8.png" alt=""></div>
+            <div class="grid-item"><img src="images/gallery/gallery9.png" alt=""></div>
+
+            <div class="grid-item"><img src="images/gallery/gallery1.png"></div>
+            <div class="grid-item grid-item--width2"><img src="images/gallery/gallery2.png" alt=""></div>
+            <div class="grid-item"><img src="images/gallery/gallery3.png" alt=""></div>
+            <div class="grid-item"><img src="images/gallery/gallery4.png" alt=""></div>
+            <div class="grid-item grid-item--width2"><img src="images/gallery/gallery5.png" alt=""></div>
+            <div class="grid-item"><img src="images/gallery/gallery6.png" alt=""></div>
+        </div>
+
+        <button type="button" class="btn btn-outline-dark more__button info__btn" id="gbtn">Rozwiń <i class="bi bi-arrow-down-short clink__icons"></i></button>
+
+        <div class="popup-img">
+            <span>&times;</span>
+            <img src="images/gallery/gallery1.png" alt="">
+        </div>
+
+        <div class="gradient__filter"></div>
+    </div>
+
     
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="scripts/app.js"></script>
 </body>
