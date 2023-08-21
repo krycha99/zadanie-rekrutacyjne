@@ -1010,7 +1010,7 @@ section.show-animate .animate{
     }
 
     .offert__frame{
-        padding: 60px 5% 40px 5%;
+        padding: 30px 5% 40px 5%;
         font-family: Verdana, sans-serif;
     
     }
@@ -1080,6 +1080,7 @@ section.show-animate .animate{
         z-index: 100;
         margin: auto;
         margin-bottom: 5%;
+        margin-left: 100px;
         
     }
     
