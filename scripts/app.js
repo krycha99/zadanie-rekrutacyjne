@@ -64,3 +64,21 @@ document.querySelectorAll('.grid-item img').forEach(image => {
 document.querySelector('.gallery__container .popup-img span').onclick = () =>{
     document.querySelector('.popup-img').style.display = 'none';
 }
+
+//scroll animations
+let sections = document.querySelectorAll('section');
+
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+
+        if (top >= offset && top < offset + height) {
+            sec.classList.add("show-animate");
+        }
+        else {
+            sec.classList.remove("show-animate");
+        }
+    })
+}
