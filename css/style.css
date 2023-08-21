@@ -989,18 +989,23 @@ section.show-animate .animate{
         padding-left: 20px;
     }
 
+    .hero__content h1{
+        font-size: 2rem;
+    }
+
+    .hero__content .c-img{
+        height: 50%;
+    }
+
     .o_btn{
         margin-top: 2%;
     }
 
     .cards__container{
         gap: 3px;
-        padding: 0 2px 0 2px;
+        padding: 5px 10px 5px 10px;
         position: relative;
-        grid-template-columns: repeat(1, minmax(0, 300px));
-        grid-auto-rows: minmax(300px, auto);
-        gap: 16px;
-        padding: 20px 88px 10px 88px;
+        grid-template-columns: repeat(1, minmax(0, 100%));
         align-items: center;
     }
 
@@ -1027,23 +1032,23 @@ section.show-animate .animate{
         border-radius: 5%;
         height: 300px;
         align-items: center;
-        padding: 24px 20px 0 24px;
+        padding: 12px 10px 0 12px;
         
     }
 
     .card__links{
         position: absolute;
-        bottom: 20%;
+        bottom: 15%;
         text-decoration: none;
         color: rgba(27, 91, 49, 1);
         border-bottom: solid;
     }
 
     .ig_back{
-    margin: 10% auto;
+    margin: 10px 10px 10px 10px;
     width: 100%;
     background-color: rgba(27, 91, 49, 1);
-    padding: 0 88px 0 88px;
+    padding: 0 22px 0 12px;
     }
 
     .info__content{
@@ -1053,6 +1058,14 @@ section.show-animate .animate{
         grid-column-start: 2;
         grid-column-end: 4;
         font-size: 14px;
+    }
+
+    .info__content h2{
+        font-size: 2rem;
+    }
+
+    .gallery__container h2{
+        font-size: 2rem;
     }
 
     .info__grid{
@@ -1065,12 +1078,20 @@ section.show-animate .animate{
 
     .more__button{
         width: 150px;
-        margin-left: 35%;
+        margin: auto;
         z-index: 100;
         margin-bottom: 5%;
     }
     
     .ig_back h2{
-        font-size: 1.9rem;
+        font-size: 1.5rem;
+    }
+
+    .footer_logo{
+        font-size: 1rem;
+    }
+    
+    .footer_logo b{
+        font-size: 1rem;
     }
 }
