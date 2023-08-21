@@ -1045,16 +1045,15 @@ section.show-animate .animate{
     }
 
     .ig_back{
-    margin: 10px 10px 10px 10px;
-    width: 100%;
-    background-color: rgba(27, 91, 49, 1);
-    padding: 0 22px 0 12px;
+        margin: 30px 0px 0px 0px;
+        width: 100%;
+        padding: 0 4px 0 4px;
     }
 
     .info__content{
         margin: auto;
-        padding-left: 30px;
-        padding-right: 96px;
+        padding-left: 15px;
+        padding-right: 10px;
         grid-column-start: 2;
         grid-column-end: 4;
         font-size: 14px;
@@ -1078,9 +1077,10 @@ section.show-animate .animate{
 
     .more__button{
         width: 150px;
-        margin: auto;
         z-index: 100;
+        margin: auto;
         margin-bottom: 5%;
+        
     }
     
     .ig_back h2{
